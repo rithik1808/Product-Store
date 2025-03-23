@@ -61,6 +61,7 @@ const ProductCard = ({ product }) => {
       updatedProduct._id,
       updatedProduct
     );
+    onClose();
     if (success) {
       toast({
         title: "Success",
